@@ -4,7 +4,7 @@
 
 The Pi-Raq came with an old version of Raspbian. An upgrade to e.g. Jessie will render the display non-functioning. The manufacturer sadly never got back to me, so I fixed it myself.
 
-Download the archive with all needed files: [EarthLCD Pi-Raq.zip](EarthLCD Pi-Raq.zip)
+Download the archive with all needed files: [EarthLCDPi-Raq.zip](EarthLCDPi-Raq.zip)
 
 
 There are two main things to do:
