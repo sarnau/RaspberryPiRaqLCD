@@ -14,7 +14,7 @@ There are two main things to do:
 
 ### How to modify the dt-blob.dts
 
-There is very few documenation for this, which is expected, considering that hooking up a custom LCD to a Raspberry is not a very common thing to do.
+There is very little documenation for this, which is expected, considering that hooking up a custom LCD to a Raspberry is not a very common thing to do.
 
 I used the stock ```dt-blob.dts``` as a new base. First I stripped it down, because the Pi-Raq ships with a "Pi 2 Model B rev 1.1" only, which means all other pin configurations are not used anyway and I can't test it. If you try to use it with a different Raspberry Pi (which seems possible), you have to change the ```pins_2b2``` to match your Raspberry Pi. Use the stock version as an example and transfer the changes over.
 
