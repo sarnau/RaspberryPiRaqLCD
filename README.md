@@ -47,7 +47,7 @@ The config.txt has to be modified to switch from HDMI to the LCD. Besides basic 
 ### Installation Step-by-Step
 
 1. Install Raspbian on an SD Card
-2. Use ApplePi-Baker to install Raspbian Jessie Lite (the normal version is not needed for this tiny display)
+2. Use [Etcher](https://etcher.io) to install Raspbian Jessie Lite (the normal version is not needed for this tiny display)
 3. Boot Raspberry with this card. You need to have a HDMI display connected and a USB keyboard
  - sudo raspi-config => fix the keyboard layout, set a password, changed the hostname, reboot
 4. Remove the card and copy the content of this folder into /home/pi
